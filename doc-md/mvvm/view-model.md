@@ -2,3 +2,5 @@
 ```
 View.DataContext = ViewModel
 ```
+
+### ViewModel Instantiation
