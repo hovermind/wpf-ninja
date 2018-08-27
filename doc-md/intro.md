@@ -4,13 +4,17 @@ You can create visible UI elements in the declarative XAML markup, and then sepa
 
 XAML directly represents the instantiation of objects in a specific set of backing types defined in assemblies.
 
-* XAML object elements - represents a type (class defined in WPF assembly)
+* XAML object elements (tag) - represents a type (class defined in WPF assembly)
 * Attribute syntax (properties) - properties of an object can often be expressed as attributes of the object element
-* Property element syntax - for some properties of an object element, attribute syntax is not possible
-* a XAML tag represents a class in XAML library
-* XAML parser/processor process XAML tags and creates corresponding objects (class instances)
-* property value of underlaying object (instanciated by XAML processor by reading XAML tags) can be set by attibute and property element tag
-* attribute value or property element value can be set by markup extension
+* Property element syntax - for some properties, attribute syntax is not possible
+* a XAML tag represents a class in XAML library (XAML processor reads tags and creates corresponding objects)
+* property value of underlaying object can be set by attibute and property element tag
+* 'attribute value' or 'property element value' can be set by markup extension
+
+**Note**
+* `.xaml` file is mapped to a partial class
+* code behind `.cs` class is also a partial class
+* both instantiated partial class (from `.xaml`) and code behind partial class are merged
 
 Example
 ```
