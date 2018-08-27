@@ -4,10 +4,12 @@ You can create visible UI elements in the declarative XAML markup, and then sepa
 
 XAML directly represents the instantiation of objects in a specific set of backing types defined in assemblies.
 
+* XAML object elements - represents a type (class defined in WPF assembly)
+* Attribute syntax (properties) - properties of an object can often be expressed as attributes of the object element
+* Property element syntax - for some properties of an object element, attribute syntax is not possible
 * a XAML tag represents a class in XAML library
 * XAML parser/processor process XAML tags and creates corresponding objects (class instances)
-* property value of underlaying object (instanciated by XAML processor by reading XAML tags) can be set by attibute and property tag (property element tag)
-* an attribute decorates UI element where property element set/get value (state of instantiated object)
+* property value of underlaying object (instanciated by XAML processor by reading XAML tags) can be set by attibute and property element tag
 * attribute value or property element value can be set by markup extension
 
 Example
@@ -15,7 +17,22 @@ Example
 <StackPanel>
   <Button Content="Click Me"/>
 </StackPanel>
+
+<Button Background="Blue" Content="This is a button"/>
+
+<Button>
+  <Button.Background><SolidColorBrush Color="Blue"/></Button.Background>
+  <Button.Content>This is a button</Button.Content>
+</Button>
 ```
+
+## XAML root elements and XAML namespaces
+A XAML file must have only one root element, in order to be both a well-formed XML file and a valid XAML file.
+The root element also contains the attributes `xmlns` & `xmlns:x`. These attributes indicate to type definitions in XAML namespaces.
+The xmlns attribute specifically indicates the default XAML namespace. Within the default XAML namespace, object elements in the markup can be specified without a prefix. For most WPF application scenarios the default XAML namespace is mapped to the WPF namespace http://schemas.microsoft.com/winfx/2006/xaml/presentation. The `xmlns:x` attribute indicates an additional XAML namespace, which maps the XAML language namespace http://schemas.microsoft.com/winfx/2006/xaml.
+
+See: [Details](https://docs.microsoft.com/en-us/dotnet/framework/wpf/advanced/xaml-overview-wpf)
+
 ## Markup Extension
 A markup extension is a feature of XAML whereby you specify an object reference (string tokens), the markup extension processes the string and return the object to a XAML loader.
 ```
