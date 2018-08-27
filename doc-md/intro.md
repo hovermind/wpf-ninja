@@ -40,7 +40,7 @@ For most WPF application:
 
 See: 
 * [XAML root elements and XAML namespaces](https://docs.microsoft.com/en-us/dotnet/framework/wpf/advanced/xaml-overview-wpf#xaml-root-elements-and-xaml-namespaces)
-* [Details](https://docs.microsoft.com/en-us/dotnet/framework/wpf/advanced/xaml-syntax-in-detail)
+* [XAML Syntax In Detail](https://docs.microsoft.com/en-us/dotnet/framework/wpf/advanced/xaml-syntax-in-detail)
 
 ## Markup Extension
 A markup extension is a feature of XAML whereby you specify an object reference (string tokens), the markup extension processes the string and return the object to a XAML loader.
