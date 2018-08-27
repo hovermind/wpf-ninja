@@ -1,7 +1,7 @@
 ## XAML
 XAML is a declarative markup language (for a .NET Framework application). 
 You can create UI elements in XAML and then separate the UI definition from the run-time logic by using code-behind files, joined to the markup through partial class definitions. **XAML directly represents the instantiation of objects in a specific set of backing types defined in assemblies.**
-
+* XAML types are mapped to CLR types to instantiate a run time representation when the XAML for WPF is parsed
 * XAML object elements (tag) - represents a type (class defined in WPF assembly)
 * Attribute syntax (properties) - properties of an object can often be expressed as attributes of the object element
 * Property element syntax - for some properties, attribute syntax is not possible
