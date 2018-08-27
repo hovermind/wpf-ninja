@@ -4,8 +4,8 @@ You can create UI elements in XAML and then separate the UI definition from the 
 
 * XAML types are mapped to CLR types to instantiate a run time representation when the XAML for WPF is parsed
 * [Object Element Syntax](https://docs.microsoft.com/en-us/dotnet/framework/wpf/advanced/xaml-syntax-in-detail#object-element-syntax) - Object element syntax is the XAML markup syntax that instantiates a CLR class or structure by declaring an XML element.
-* Attribute syntax (properties) - properties of an object can often be expressed as attributes of the object element
-* Property element syntax - for some properties, attribute syntax is not possible
+* [Attribute Syntax](https://docs.microsoft.com/en-us/dotnet/framework/wpf/advanced/xaml-syntax-in-detail#attribute-syntax-properties) - properties of an object can often be expressed as attributes of the object element
+* [Property Element Syntax](https://docs.microsoft.com/en-us/dotnet/framework/wpf/advanced/xaml-syntax-in-detail#property-element-syntax) - for some properties, attribute syntax is not possible
 * property value of underlaying object can be set by attibute and property element tag
 * 'attribute value' or 'property element value' can be set by markup extension
 
