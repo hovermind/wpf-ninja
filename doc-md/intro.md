@@ -1,4 +1,4 @@
-## XAML
+## XAML - Extensiable Application Marup Language
 XAML is a declarative markup language (for a .NET Framework application). You can create UI elements in XAML and then separate the UI definition from the run-time logic by using code-behind files.
 
 * XAML taga are mapped to CLR types to instantiate a run time representation (as partial class)
@@ -29,10 +29,11 @@ Example
 * code behind `.cs` class is also a partial class
 * instantiated partial class (from `.xaml`) and code behind partial class are merged
 
-## XAML root elements and XAML namespaces
+## XAML root elements
 A XAML file must have only one root element, in order to be both a well-formed XML file and a valid XAML file.
 The root element also contains the attributes `xmlns` & `xmlns:x`. These attributes indicate to type definitions in XAML namespaces. Within the default XAML namespace (`xmlns`), object elements in the markup can be specified without a prefix.
 
+## XAML namespaces
 XAML namespace implies both a scope of uniqueness for the markup usages, and also influences how markup entities are potentially backed by specific CLR namespaces and referenced assemblies.
 * URIs as namespace identifiers (convention)
 * using prefixes to provide a means to reference multiple namespaces from the same markup source
@@ -41,4 +42,4 @@ For most WPF application:
 * `xmlns` : http://schemas.microsoft.com/winfx/2006/xaml/presentation
 * `xmlns:x` : http://schemas.microsoft.com/winfx/2006/xaml.
 
-* [XAML Syntax In Detail](https://docs.microsoft.com/en-us/dotnet/framework/wpf/advanced/xaml-syntax-in-detail)
+**See:** [XAML Syntax In Detail](https://docs.microsoft.com/en-us/dotnet/framework/wpf/advanced/xaml-syntax-in-detail)
