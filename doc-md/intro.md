@@ -1,12 +1,11 @@
 ## XAML
-XAML is a declarative markup language (for a .NET Framework application). 
-You can create UI elements in XAML and then separate the UI definition from the run-time logic by using code-behind files, joined to the markup through partial class definitions.
+XAML is a declarative markup language (for a .NET Framework application). You can create UI elements in XAML and then separate the UI definition from the run-time logic by using code-behind files.
 
-* XAML types are mapped to CLR types to instantiate a run time representation when the XAML for WPF is parsed
+* XAML taga are mapped to CLR types to instantiate a run time representation (as partial class)
 * [Object Element Syntax](https://docs.microsoft.com/en-us/dotnet/framework/wpf/advanced/xaml-syntax-in-detail#object-element-syntax) - Object element syntax is the XAML markup syntax that instantiates a CLR class or structure by declaring an XML element.
 * [Attribute Syntax](https://docs.microsoft.com/en-us/dotnet/framework/wpf/advanced/xaml-syntax-in-detail#attribute-syntax-properties) - properties of an object can often be expressed as attributes of the object element
 * [Property Element Syntax](https://docs.microsoft.com/en-us/dotnet/framework/wpf/advanced/xaml-syntax-in-detail#property-element-syntax) - for some properties, attribute syntax is not possible
-* property value of underlaying object can be set by attibute and property element tag
+* property value of underlaying object can be set by attibute or property element tag
 * 'attribute value' or 'property element value' can be set by markup extension
 
 Example
@@ -28,17 +27,18 @@ Example
 **Notes**
 * `.xaml` file is mapped to a partial class
 * code behind `.cs` class is also a partial class
-* both instantiated partial class (from `.xaml`) and code behind partial class are merged
+* instantiated partial class (from `.xaml`) and code behind partial class are merged
 
 ## XAML root elements and XAML namespaces
 A XAML file must have only one root element, in order to be both a well-formed XML file and a valid XAML file.
-The root element also contains the attributes `xmlns` & `xmlns:x`. These attributes indicate to type definitions in XAML namespaces.
-The xmlns attribute specifically indicates the default XAML namespace. Within the default XAML namespace, object elements in the markup can be specified without a prefix.
+The root element also contains the attributes `xmlns` & `xmlns:x`. These attributes indicate to type definitions in XAML namespaces. Within the default XAML namespace (`xmlns`), object elements in the markup can be specified without a prefix.
+
+XAML namespace implies both a scope of uniqueness for the markup usages, and also influences how markup entities are potentially backed by specific CLR namespaces and referenced assemblies.
+* URIs as namespace identifiers (convention)
+* using prefixes to provide a means to reference multiple namespaces from the same markup source
 
 For most WPF application:
 * `xmlns` : http://schemas.microsoft.com/winfx/2006/xaml/presentation
 * `xmlns:x` : http://schemas.microsoft.com/winfx/2006/xaml.
 
-See: 
-* [XAML root elements and XAML namespaces](https://docs.microsoft.com/en-us/dotnet/framework/wpf/advanced/xaml-overview-wpf#xaml-root-elements-and-xaml-namespaces)
 * [XAML Syntax In Detail](https://docs.microsoft.com/en-us/dotnet/framework/wpf/advanced/xaml-syntax-in-detail)
