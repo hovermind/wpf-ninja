@@ -37,9 +37,11 @@ The root element also contains the attributes `xmlns` & `xmlns:x`. These attribu
 XAML namespace implies both a scope of uniqueness for the markup usages, and also influences how markup entities are potentially backed by specific CLR namespaces and referenced assemblies.
 * URIs as namespace identifiers (convention)
 * using prefixes to provide a means to reference multiple namespaces from the same markup source
+* `xmlns` => default namespace
+* `xmlns:prefix` => other namespace than default
 
 For most WPF application:
 * `xmlns` : http://schemas.microsoft.com/winfx/2006/xaml/presentation
-* `xmlns:x` : http://schemas.microsoft.com/winfx/2006/xaml.
+* `xmlns:x` : http://schemas.microsoft.com/winfx/2006/xaml
 
 **See:** [XAML Syntax In Detail](https://docs.microsoft.com/en-us/dotnet/framework/wpf/advanced/xaml-syntax-in-detail)
