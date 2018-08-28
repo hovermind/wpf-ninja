@@ -44,4 +44,6 @@ For most WPF application:
 * `xmlns` : http://schemas.microsoft.com/winfx/2006/xaml/presentation
 * `xmlns:x` : http://schemas.microsoft.com/winfx/2006/xaml
 
-**See:** [XAML Syntax In Detail](https://docs.microsoft.com/en-us/dotnet/framework/wpf/advanced/xaml-syntax-in-detail)
+**See:**
+* [Mapping CLR Namespaces to XML Namespaces in an Assembly](https://docs.microsoft.com/en-us/dotnet/framework/wpf/advanced/xaml-namespaces-and-namespace-mapping-for-wpf-xaml#mapping-clr-namespaces-to-xml-namespaces-in-an-assembly)
+* [XAML Syntax In Detail](https://docs.microsoft.com/en-us/dotnet/framework/wpf/advanced/xaml-syntax-in-detail)
