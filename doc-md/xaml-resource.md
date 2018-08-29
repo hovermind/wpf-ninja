@@ -56,14 +56,29 @@ The global application resource dictionary is in the App.xaml file. In this file
     
 </Application>
 ```
-**Note: Expression Blend has options to extract design as resource in a file and update existing resource file**
+**Notes:**
+* Expression Blend has options to extract design as resource in a file and update existing resource file
+* resource in `App.xaml` is Anti-Pattern, since App.xaml files should never directly contain resources because it leads to a completely unmanageable mess
 
 ## Resource in Window
 Available to pages in the window
 
 ## Resource in Page
 Available to that page only
+```
+<Page
+    x:Class="MSDNSample.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
 
+    <Page.Resources>
+        <x:String x:Key="greeting">Hello world</x:String>
+        <x:String x:Key="goodbye">Goodbye world</x:String>
+    </Page.Resources>
+
+    <TextBlock Text="{StaticResource greeting}" Foreground="Gray" VerticalAlignment="Center"/>
+</Page>
+```
 ## Resource in Control
 Available to that control and child control only
 
