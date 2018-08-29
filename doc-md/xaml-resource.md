@@ -1,9 +1,11 @@
-A resource is an object that can be reused in different places in your application. Examples of resources include brushes and styles.
+Resources are typically definitions of some object that you expect to use more than once. To refer to a XAML resource later, you specify a key for a resource that acts like its name. You can reference a resource throughout an app or from any XAML page within it.
 
 Resources can be defined: 
 * locally for a control
 * locally for the entire page/window
 * globally for the entire application
+
+**See:** [ResourceDictionary and XAML resource references](https://docs.microsoft.com/en-us/windows/uwp/design/controls-and-patterns/resourcedictionary-and-xaml-resource-references)
 
 ## Resource in `.xaml` File
 Available to whole application
