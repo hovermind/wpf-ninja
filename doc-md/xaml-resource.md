@@ -56,7 +56,7 @@ The global application resource dictionary is in the App.xaml file. In this file
     
 </Application>
 ```
-
+**Note: Expression Blend has options to extract design as resource in a file and update existing resource file**
 
 ## Resource in Window
 Available to pages in the window
