@@ -17,6 +17,10 @@ You can define resources:
     <SolidColorBrush x:Key="MyBrush" Color="Green"/>
 </Page.Resources>
 ```
+**key can be**
+* implicit: `x:Key="MyKey"`
+* explicit: `TargetType="Control"`
+
 After defining a resource, you can reference it to be used for a property value by using resource markup extension syntax
 ```
 <Button Background="{StaticResource MyBrush}"/>
