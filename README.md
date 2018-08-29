@@ -6,7 +6,7 @@
 * [Attached Property](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/attached-property.md)
 * [Resources](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/resource.md)
   * [ResourceDictionary](https://github.com/hovermind/wpf-ninja/tree/master/doc-md)
-  * [Style](#)
+  * [Style](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/style.md)
   * [Theme](#)
 
 
