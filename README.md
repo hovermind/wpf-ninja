@@ -10,7 +10,16 @@
   * [Theme](#)
   * [Value Resource - String, Number, Bool](https://docs.microsoft.com/en-us/windows/uwp/xaml-platform/xaml-intrinsic-data-types)
   * [Image, Video, Doc](#)
+* Layouts
+* Controls
+  * [Content Control](#)
+  * [Items Control](#)
+* Template
+  * [Items Template](#)
+  * [Data Template](#)
+* i18n
 
 
 ## [MVVM](#)
+* [Data Binding Basic](#)
 * [ViewModel](https://github.com/hovermind/wpf-ninja/blob/mvvm/doc-md/mvvm/view-model.md)
