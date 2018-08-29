@@ -8,6 +8,8 @@
   * [XAML Resource](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/xaml-resource.md)
   * [Style](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/style.md)
   * [Theme](#)
+  * [Value Resource - String, Number, Collection](#)
+  * [Image, Video, Doc](#)
 
 
 ## [MVVM](#)
