@@ -8,7 +8,49 @@ Resources can be defined:
 **See:** [ResourceDictionary and XAML resource references](https://docs.microsoft.com/en-us/windows/uwp/design/controls-and-patterns/resourcedictionary-and-xaml-resource-references)
 
 ## Resource in `.xaml` File
-Available to whole application
+The global application resource dictionary is in the App.xaml file. In this file you can include several resource dictionaries as a Merged Dictionary.
+
+`MyTextStyle.xaml`
+```
+<ResourceDictionary 
+  xmlns=" http://schemas.microsoft.com/winfx/2006/xaml/presentation "
+  xmlns:x=" http://schemas.microsoft.com/winfx/2006/xaml " > 
+  <Style TargetType="{x:Type TextBlock}" x:Key="TextStyle">
+    <Setter Property="FontFamily" Value="Lucida Sans" />
+    <Setter Property="FontSize" Value="22" />
+    <Setter Property="Foreground" Value="#58290A" />
+  </Style>
+</ResourceDictionary>
+```
+**Note:** ResourceDictionary is the root element in the Xml file we need to define the default namespaces
+
+`App.xaml`
+```
+<Application x:Class="MyApp"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    StartupUri="Window1.xaml">
+    <Application.Resources>
+	
+      <ResourceDictionary>
+        <ResourceDictionary.MergedDictionaries>
+		
+          <ResourceDictionary Source="MyTextStyle.xaml" />
+		  
+		  <ResourceDictionary Source="xyz.xaml" />
+		  
+        </ResourceDictionary.MergedDictionaries>
+      </ResourceDictionary>
+	  
+      <!-- other styles can appear in the resource dictionary too -->
+      <Style ...>
+        <Setter Property="Background" Value="#ddd" />
+      </Style>
+	  
+    </Application.Resources>
+</Application>
+```
+
 
 ## Resource in Window
 Available to pages in the window
