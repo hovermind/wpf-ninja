@@ -8,7 +8,7 @@ Resources can be defined:
 **See:** [ResourceDictionary and XAML resource references](https://docs.microsoft.com/en-us/windows/uwp/design/controls-and-patterns/resourcedictionary-and-xaml-resource-references)
 
 ## Resource in Separate `.xaml` File
-The global application resource dictionary is in the App.xaml file. In this file you can include several resource dictionaries as a Merged Dictionary.
+The global application resource dictionary is in the `App.xaml` file. In this file you can include several resource dictionaries as a Merged Dictionary.
 
 #### Step-1 Resource in `.xaml` File
 `MyTextStyle.xaml`
