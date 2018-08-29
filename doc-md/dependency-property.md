@@ -9,3 +9,5 @@ Dependency properties are properties of classes that derive from DependencyObjec
 **When you set a value of a dependency property it is not stored in a field of your object, but in a dictionary provided by the base class DependencyObject**. The key of an entry is the name of the property and the value is the value you want to set.
 
 The purpose of dependency properties is to provide a way to compute the value of a property based on the value of other inputs. These other inputs might include system properties such as themes and user preference, just-in-time property determination mechanisms such as data binding and animations/storyboards, multiple-use templates such as resources and styles, or values known through parent-child relationships with other elements in the element tree.
+
+**See:** [Property functionality provided by a dependency property](https://docs.microsoft.com/en-us/dotnet/framework/wpf/advanced/dependency-properties-overview#property-functionality-provided-by-a-dependency-property)
