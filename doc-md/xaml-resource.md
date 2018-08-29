@@ -62,12 +62,24 @@ The global application resource dictionary is in the App.xaml file. In this file
 
 ## Resource in Window
 Available to pages in the window
+```
+<Window x:Class="MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    
+    <Window.Resources>
+        <x:String x:Key="greeting">Hello world</x:String>
+        <x:String x:Key="goodbye">Goodbye world</x:String>
+    </Window.Resources>
 
+    <TextBlock Text="{StaticResource greeting}" Foreground="Gray" VerticalAlignment="Center"/>
+
+</Window>
+```
 ## Resource in Page
 Available to that page only
 ```
-<Page
-    x:Class="MSDNSample.MainPage"
+<Page x:Class="MainPage"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
 
@@ -81,6 +93,27 @@ Available to that page only
 ```
 ## Resource in Control
 Available to that control and child control only
+```
+<TextBox Foreground="{DynamicResource MyForeground}">
+    <TextBox.Resources>
+        <SolidColorBrush Color="Red" x:Key="MyForeground" />
+    </TextBox.Resources>
+</TextBox>
+```
+Alternative (better)
+```
+<Window x:Class="MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+	
+    <Window.Resources>
+        <SolidColorBrush Color="Red" x:Key="MyForeground" />
+    </Window.Resources>
+
+    <TextBox Foreground="{StaticResource MyForeground}"/>
+	
+</Window>
+```
 
 
 
