@@ -5,7 +5,7 @@
 * [Dependency Property](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/dependency-property.md)
 * [Attached Property](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/attached-property.md)
 * [Resources](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/resource.md)
-  * [ResourceDictionary](https://github.com/hovermind/wpf-ninja/tree/master/doc-md)
+  * [ResourceDictionary and XAML Resource](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/resource-dictionary.md)
   * [Style](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/style.md)
   * [Theme](#)
 
