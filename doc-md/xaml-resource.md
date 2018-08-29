@@ -23,7 +23,9 @@ The global application resource dictionary is in the App.xaml file. In this file
   
 </ResourceDictionary>
 ```
-**Note:** ResourceDictionary is the root element in the Xml file, so we need to define the default namespaces
+**Notes:**
+* ResourceDictionary is the root element in the Xml file, so we need to define the default namespaces
+* There is ResourceDictionary template is Visual Studio : Right Click > Add Item > ResourceDictionary
 
 `App.xaml`
 ```
