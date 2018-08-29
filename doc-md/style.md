@@ -19,8 +19,8 @@
   <Setter Property="FontSize" Value="14"/>
 </Style>
 ```
-What `TargetType="TextBlock"` does:
-* sets implicit key: `x:Key="{x:Type TextBlock}"`
+What `TargetType="TextBlock"` does (`TargetType="{x:Type TextBlock}" x:Key="TextBlock"`)
+* sets implicit key: `x:Key="TextBlock"`
 * specifies the control type (i.e. `TextBlock`) to which setter properties apply (otherwise you must qualify as `Property="Control.Property"` i.e. `Property="TextBlock.FontSize"` instead of `Property="FontSize"`)
 
 **Note:** `x:Type` markup extension has a similar function to the `typeof()` operator in C# 
