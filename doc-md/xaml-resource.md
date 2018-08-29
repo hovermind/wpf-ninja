@@ -14,15 +14,16 @@ The global application resource dictionary is in the App.xaml file. In this file
 ```
 <ResourceDictionary 
   xmlns=" http://schemas.microsoft.com/winfx/2006/xaml/presentation "
-  xmlns:x=" http://schemas.microsoft.com/winfx/2006/xaml " > 
+  xmlns:x=" http://schemas.microsoft.com/winfx/2006/xaml ">
+  
   <Style TargetType="{x:Type TextBlock}" x:Key="TextStyle">
-    <Setter Property="FontFamily" Value="Lucida Sans" />
     <Setter Property="FontSize" Value="22" />
     <Setter Property="Foreground" Value="#58290A" />
   </Style>
+  
 </ResourceDictionary>
 ```
-**Note:** ResourceDictionary is the root element in the Xml file we need to define the default namespaces
+**Note:** ResourceDictionary is the root element in the Xml file, so we need to define the default namespaces
 
 `App.xaml`
 ```
@@ -30,14 +31,15 @@ The global application resource dictionary is in the App.xaml file. In this file
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     StartupUri="Window1.xaml">
+    
     <Application.Resources>
 	
       <ResourceDictionary>
         <ResourceDictionary.MergedDictionaries>
 		
           <ResourceDictionary Source="MyTextStyle.xaml" />
-		  
-		  <ResourceDictionary Source="xyz.xaml" />
+	  
+	  <ResourceDictionary Source="xyz.xaml" />
 		  
         </ResourceDictionary.MergedDictionaries>
       </ResourceDictionary>
@@ -48,6 +50,7 @@ The global application resource dictionary is in the App.xaml file. In this file
       </Style>
 	  
     </Application.Resources>
+    
 </Application>
 ```
 
