@@ -10,6 +10,7 @@ Resources can be defined:
 ## Resource in Separate `.xaml` File
 The global application resource dictionary is in the App.xaml file. In this file you can include several resource dictionaries as a Merged Dictionary.
 
+#### Step-1 Resource in `.xaml` File
 `MyTextStyle.xaml`
 ```
 <ResourceDictionary 
@@ -27,7 +28,7 @@ The global application resource dictionary is in the App.xaml file. In this file
 * ResourceDictionary is the root element in the Xml file, so we need to define the default namespaces
 * There is ResourceDictionary template is Visual Studio : Right Click > Add Item > ResourceDictionary
 
-`App.xaml`
+#### Step-2 `ResourceDictionary.MergedDictionaries` in `App.xaml`
 ```
 <Application x:Class="MyApp"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
