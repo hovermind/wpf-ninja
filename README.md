@@ -15,7 +15,7 @@
   * [Content Control](#)
   * [Items Control](#)
 * Template
-  * [Control Template](#)
+  * [Control Template](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/control-template.md)
   * [Data Template](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/data-template.md)
 * [i18n](#)
 
