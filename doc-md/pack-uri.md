@@ -21,3 +21,4 @@ The authority specifies the type of package that a part is contained by, while t
 
 
 ## [Resource File Pack URIs](https://docs.microsoft.com/en-us/dotnet/framework/wpf/app-development/pack-uris-in-wpf#resource-file-pack-uris)
+## [Content File Pack URIs](https://docs.microsoft.com/en-us/dotnet/framework/wpf/app-development/pack-uris-in-wpf#content-file-pack-uris)
