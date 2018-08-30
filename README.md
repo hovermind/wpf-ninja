@@ -6,11 +6,11 @@
 * [Attached Property](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/attached-property.md)
 * [Resources](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/resource.md)
   * [XAML Resource](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/xaml-resource.md)
+  * [Pack URI Scheme](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/pack-uri.md)
   * [Style](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/style.md)
   * [Theme](#)
   * [Value Resource - String, Number, Bool](https://docs.microsoft.com/en-us/windows/uwp/xaml-platform/xaml-intrinsic-data-types)
   * [Image, Video, Doc](#)
-* [Pack URI Scheme](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/pack-uri.md)
 * [Layouts](#)
 * Controls
   * [Content Control](#)
