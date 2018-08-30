@@ -1,5 +1,5 @@
 ## WPF Style
-
+A Style is a collection of values that represent properties for a control. By using styles, you can create a reusable representation of a desired control appearance and behavior without writing a new control.
 
 
 ## Style with Explicit Key
