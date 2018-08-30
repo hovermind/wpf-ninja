@@ -10,3 +10,11 @@ Furthermore, URIs can be used to identify and load files from a variety of locat
 * A referenced assembly
 * A location relative to an assembly
 * The application's site of origin
+
+Pack URI Scheme:
+* Open Packaging Conventions (OPC) specification
+* describes a model for organizing and identifying content
+* key elements are packages and parts, where a package is a logical container for one or more logical parts
+
+**Format of pack URI :`pack://authority/path`**
+The authority specifies the type of package that a part is contained by, while the path specifies the location of a part within a package.
