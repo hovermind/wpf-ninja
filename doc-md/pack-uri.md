@@ -16,5 +16,8 @@ Pack URI Scheme:
 * describes a model for organizing and identifying content
 * key elements are packages and parts, where a package is a logical container for one or more logical parts
 
-**Format of pack URI :`pack://authority/path`**
+**Format of pack URI :`pack://authority/path`**   
 The authority specifies the type of package that a part is contained by, while the path specifies the location of a part within a package.
+
+
+## [Resource File Pack URIs](https://docs.microsoft.com/en-us/dotnet/framework/wpf/app-development/pack-uris-in-wpf#resource-file-pack-uris)
