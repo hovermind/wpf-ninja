@@ -10,6 +10,7 @@
   * [Theme](#)
   * [Value Resource - String, Number, Bool](https://docs.microsoft.com/en-us/windows/uwp/xaml-platform/xaml-intrinsic-data-types)
   * [Image, Video, Doc](#)
+* [Pack URI Scheme](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/pack-uri.md)
 * [Layouts](#)
 * Controls
   * [Content Control](#)
