@@ -16,12 +16,13 @@
   * [Content Control](#)
   * [Items Control](#)
 * Template
-  * [Control Template](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/control-template.md)
   * [Data Template](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/data-template.md)
-* [Trigger](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/trigger.md)
+  * [Trigger](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/trigger.md)
+  * [Control Template](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/control-template.md)
 * [i18n](#)
 
+## Data Binding
+* [Data Binding Basic](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/data-binding.md)
 
 ## [MVVM](#)
-* [Data Binding Basic](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/data-binding.md)
 * [ViewModel](https://github.com/hovermind/wpf-ninja/blob/mvvm/doc-md/mvvm/view-model.md)
