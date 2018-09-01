@@ -30,3 +30,4 @@
 * Connecting ViewModel to View
   * [View First Composition](https://github.com/hovermind/wpf-ninja/blob/mvvm/doc-md/mvvm/mvvm-view-first.md)
   * [ViewModel First Composition](https://github.com/hovermind/wpf-ninja/blob/mvvm/doc-md/mvvm/mvvm-viewmodel-first.md)
+* [ViewModelLocator](https://github.com/hovermind/wpf-ninja/blob/mvvm/doc-md/mvvm/viewmodel-locator.md)
