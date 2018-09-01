@@ -24,5 +24,5 @@
 ## Data Binding
 * [Data Binding Basic](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/data-binding.md)
 
-## [MVVM](#)
+## [MVVM](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/mvvm/mvvm.md)
 * [ViewModel](https://github.com/hovermind/wpf-ninja/blob/mvvm/doc-md/mvvm/view-model.md)
