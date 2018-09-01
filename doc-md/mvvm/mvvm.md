@@ -12,4 +12,6 @@ easily and independently. The MVVM pattern consists of the following parts:
 ![mvvm-diagram](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/mvvm/mvvm-diagram.png)
 
 
-**See: [MVVM Details](https://docs.microsoft.com/en-us/xamarin/xamarin-forms/enterprise-application-patterns/mvvm)**
+**See:**
+* [MVVM Details](https://docs.microsoft.com/en-us/xamarin/xamarin-forms/enterprise-application-patterns/mvvm)
+* [MVVM Best Practices](https://blog.rsuter.com/recommendations-best-practices-implementing-mvvm-xaml-net-applications/)
