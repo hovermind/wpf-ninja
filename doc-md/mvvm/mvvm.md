@@ -10,3 +10,6 @@ easily and independently. The MVVM pattern consists of the following parts:
 **Relationship between the View, the ViewModel, and the Model**   
 
 ![mvvm-diagram](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/mvvm/mvvm-diagram.png)
+
+
+**See: [MVVM Details](https://docs.microsoft.com/en-us/xamarin/xamarin-forms/enterprise-application-patterns/mvvm)**
