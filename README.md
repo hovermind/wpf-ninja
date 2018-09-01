@@ -29,4 +29,4 @@
 * [ViewModel](https://github.com/hovermind/wpf-ninja/blob/mvvm/doc-md/mvvm/view-model.md)
 * Connecting ViewModel to View
   * [View First Composition](https://github.com/hovermind/wpf-ninja/blob/mvvm/doc-md/mvvm/mvvm-view-first.md)
-  * [ViewModel First Composition](#)
+  * [ViewModel First Composition](https://github.com/hovermind/wpf-ninja/blob/mvvm/doc-md/mvvm/mvvm-viewmodel-first.md)
