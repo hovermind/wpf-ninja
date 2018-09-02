@@ -65,6 +65,33 @@ public class CustomerListViewModel
 }
 ```
 
+**For Xamarin.Forms**
+```
+private static void OnAutoWireViewModelChanged(BindableObject bindable, object oldValue, object newValue)  
+{  
+    var view = bindable as Element;  
+    if (view == null)  
+    {  
+        return;  
+    }  
+
+    var viewType = view.GetType();  
+    var viewName = viewType.FullName.Replace(".Views.", ".ViewModels.");  
+    var viewAssemblyName = viewType.GetTypeInfo().Assembly.FullName;  
+    var viewModelName = string.Format(  
+        CultureInfo.InvariantCulture, "{0}Model, {1}", viewName, viewAssemblyName);  
+
+    var viewModelType = Type.GetType(viewModelName);  
+    if (viewModelType == null)  
+    {  
+        return;  
+    }  
+    var viewModel = _container.Resolve(viewModelType);  
+    view.BindingContext = viewModel;  
+}
+```
+**See: [Automatically Creating a View Model with a View Model Locator](https://docs.microsoft.com/en-us/xamarin/xamarin-forms/enterprise-application-patterns/mvvm#automatically-creating-a-view-model-with-a-view-model-locator)**
+
 ## Enable AutoWireViewModel in `xaml`
 `CustomerListView.xaml` (=> `local:ViewModelLocator.AutoWireViewModel="True"`)
 ```
