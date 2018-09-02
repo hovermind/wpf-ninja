@@ -41,25 +41,7 @@ public static class ViewModelLocator {
 }
 ```
 
-## Enable AutoWireViewModel in `xaml`
-`CustomerListView.xaml` (`ViewModelLocator.AutoWireViewModel="True"`)
-```
-<UserControl x:Class="Demo.CustomerListView"
-             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
-             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-             xmlns:local="clr-namespace:Demo"
-	     local:ViewModelLocator.AutoWireViewModel="True"
-             mc:Ignorable="d" 
-             d:DesignHeight="300" d:DesignWidth="300" >
-    <Grid>
-        <DataGrid ItemsSource="{Binding Customers}" />
-    </Grid>
-</UserControl>
-```
-
-## ViewModel
+## Create ViewModel
 `CustomerListViewModel.cs`
 ```
 public class CustomerListViewModel
@@ -77,5 +59,34 @@ public class CustomerListViewModel
 	}
 
 	public ObservableCollection<Customer> Customers { get; set; }
+}
+```
+
+## Enable AutoWireViewModel in `xaml` (`ViewModelLocator.AutoWireViewModel="True"`)
+`CustomerListView.xaml`
+```
+<UserControl x:Class="Demo.CustomerListView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Demo"
+	     local:ViewModelLocator.AutoWireViewModel="True"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300" >
+    <Grid>
+        <DataGrid ItemsSource="{Binding Customers}" />
+    </Grid>
+</UserControl>
+```
+
+## `CustomerListView.xaml.cs`
+```
+public partial class CustomerListView : UserControl
+{
+    public CustomerListView()
+    {
+        InitializeComponent();
+    }
 }
 ```
