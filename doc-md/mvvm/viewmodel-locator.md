@@ -42,6 +42,7 @@ public static class ViewModelLocator {
 
 ## `ViewModelLocator.AutoWireViewModel="True"`
 `CustomerListView.xaml`
+```
 <UserControl x:Class="Demo.CustomerListView"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
@@ -55,6 +56,7 @@ public static class ViewModelLocator {
         <DataGrid ItemsSource="{Binding Customers}" />
     </Grid>
 </UserControl>
+```
 
 ## `CustomerListViewModel.cs`
 ```
