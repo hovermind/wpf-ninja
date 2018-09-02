@@ -44,27 +44,6 @@ public static class ViewModelLocator {
 }
 ```
 
-## Create ViewModel
-`CustomerListViewModel.cs`
-```
-public class CustomerListViewModel
-{
-	private ICustomersRepository _repository = new CustomersRepository();
-	
-	public CustomerListViewModel()
-	{
-		if (DesignerProperties.GetIsInDesignMode(new System.Windows.DependencyObject()))
-		{
-			return;
-		}
-
-		Customers = new ObservableCollection<Customer>( _repository.GetCustomersAsync().Result);
-	}
-
-	public ObservableCollection<Customer> Customers { get; set; }
-}
-```
-
 **For Xamarin.Forms**
 ```
 private static void OnAutoWireViewModelChanged(BindableObject bindable, object oldValue, object newValue)  
@@ -91,6 +70,27 @@ private static void OnAutoWireViewModelChanged(BindableObject bindable, obj
 }
 ```
 **See: [Automatically Creating a View Model with a View Model Locator](https://docs.microsoft.com/en-us/xamarin/xamarin-forms/enterprise-application-patterns/mvvm#automatically-creating-a-view-model-with-a-view-model-locator)**
+
+## Create ViewModel
+`CustomerListViewModel.cs`
+```
+public class CustomerListViewModel
+{
+	private ICustomersRepository _repository = new CustomersRepository();
+	
+	public CustomerListViewModel()
+	{
+		if (DesignerProperties.GetIsInDesignMode(new System.Windows.DependencyObject()))
+		{
+			return;
+		}
+
+		Customers = new ObservableCollection<Customer>( _repository.GetCustomersAsync().Result);
+	}
+
+	public ObservableCollection<Customer> Customers { get; set; }
+}
+```
 
 ## Enable AutoWireViewModel in `xaml`
 `CustomerListView.xaml` (=> `local:ViewModelLocator.AutoWireViewModel="True"`)
