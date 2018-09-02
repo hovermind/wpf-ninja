@@ -110,7 +110,7 @@ public class CustomerListViewModel
 </UserControl>
 ```
 
-## `CustomerListView.xaml.cs`
+**`CustomerListView.xaml.cs`**
 ```
 public partial class CustomerListView : UserControl
 {
