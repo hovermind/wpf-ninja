@@ -39,3 +39,39 @@ public static class ViewModelLocator {
         }
 }
 ```
+
+## `ViewModelLocator.AutoWireViewModel="True"`
+`CustomerListView.xaml`
+<UserControl x:Class="Demo.CustomerListView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Demo"
+			 local:ViewModelLocator.AutoWireViewModel="True"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300" >
+    <Grid>
+        <DataGrid ItemsSource="{Binding Customers}" />
+    </Grid>
+</UserControl>
+
+## `CustomerListViewModel.cs`
+```
+public class CustomerListViewModel
+{
+	private ICustomersRepository _repository = new CustomersRepository();
+	
+	public CustomerListViewModel()
+	{
+		if (DesignerProperties.GetIsInDesignMode(new System.Windows.DependencyObject()))
+		{
+			return;
+		}
+
+		Customers = new ObservableCollection<Customer>( _repository.GetCustomersAsync().Result);
+	}
+
+	public ObservableCollection<Customer> Customers { get; set; }
+}
+```
