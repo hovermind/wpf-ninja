@@ -6,7 +6,8 @@
 * instanciate ViewModel
 * set `DataContext`
 
-## `ViewModelLocator.cs`
+## Create ViewModelLocator Class
+`ViewModelLocator.cs`
 ```
 public static class ViewModelLocator {
 
@@ -40,8 +41,8 @@ public static class ViewModelLocator {
 }
 ```
 
-## `ViewModelLocator.AutoWireViewModel="True"`
-`CustomerListView.xaml`
+## Enable AutoWireViewModel in `xaml`
+`CustomerListView.xaml` (`ViewModelLocator.AutoWireViewModel="True"`)
 ```
 <UserControl x:Class="Demo.CustomerListView"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
@@ -49,7 +50,7 @@ public static class ViewModelLocator {
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:Demo"
-			 local:ViewModelLocator.AutoWireViewModel="True"
+	     local:ViewModelLocator.AutoWireViewModel="True"
              mc:Ignorable="d" 
              d:DesignHeight="300" d:DesignWidth="300" >
     <Grid>
@@ -58,7 +59,8 @@ public static class ViewModelLocator {
 </UserControl>
 ```
 
-## `CustomerListViewModel.cs`
+## ViewModel
+`CustomerListViewModel.cs`
 ```
 public class CustomerListViewModel
 {
