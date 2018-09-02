@@ -62,8 +62,8 @@ public class CustomerListViewModel
 }
 ```
 
-## Enable AutoWireViewModel in `xaml` (`ViewModelLocator.AutoWireViewModel="True"`)
-`CustomerListView.xaml`
+## Enable AutoWireViewModel in `xaml`
+`CustomerListView.xaml` (=> `local:ViewModelLocator.AutoWireViewModel="True"`)
 ```
 <UserControl x:Class="Demo.CustomerListView"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
