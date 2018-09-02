@@ -3,7 +3,7 @@ A view model locator is a custom class that manages the instantiation of view mo
 the `ViewModelLocator` class has an attached property, `AutoWireViewModel`, that's used to associate view models with views. In the view's XAML, this attached property is set to true to indicate that the view model should be automatically connected to the view.
 The `AutoWireViewModel` property is a bindable property that's initialized to false, and when its value changes the `OnAutoWireViewModelChanged` event handler is called.
 
-## ViewModelLocator Process
+**Process:**
 * what view is being constructed
 * what ViewModel should be instanciated
 * instanciate ViewModel
