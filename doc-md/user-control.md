@@ -58,9 +58,9 @@ public partial class FieldUserControl : UserControl
   }
 }
 ```
-**Note:** Label & TxtInput are dependecny property to allow data binding while using `UserControl` in page/window/other control
+**Note:** `Label` & `TxtInput` are dependecny property to allow data binding while using `UserControl` in page/window/other control
 
-## Using `UserControl` in MainWindow
+## Using UserControl in MainWindow
 ```
 <Window
     x:Class="Demo.MainWindow"
