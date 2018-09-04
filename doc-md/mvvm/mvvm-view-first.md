@@ -7,7 +7,6 @@ public MainWindow()
     this.DataContext = new EmployeeViewModel();
 }
 ```
-**Note:** `DataContext` in `xaml` uses default constructor only, if you need to pass params in ViewModel constructor then use code-behind class to set `DataContext`
 
 #### In XAML
 `MainWindow.xaml`
