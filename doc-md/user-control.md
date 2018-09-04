@@ -8,7 +8,9 @@ When to use `UserControl`:
 
 ## Creating UserControl
 
-`FieldUserControl.xaml` (`ElementName=MyControl` => UserControl class itself is `DataContext` and has `Label` & `TxtInput` properties)
+**Note:** `DataContext={Binding ElementName=MyControl}` => UserControl class itself is `DataContext` and has `Label` & `TxtInput` properties (`DependencyProperty`)
+
+`FieldUserControl.xaml`
 ```
 <UserControl x:Class="Demo.FieldUserControl" Name="MyControl">
 
