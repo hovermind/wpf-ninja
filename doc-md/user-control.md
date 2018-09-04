@@ -8,7 +8,7 @@ When to use `UserControl`:
 
 ## Creating UserControl
 
-**Note:** `DataContext={Binding ElementName=MyControl}` => UserControl class itself is `DataContext` and has `Label` & `TxtInput` properties (`DependencyProperty`)
+**Note:** `DataContext={Binding ElementName=MyControl}` means UserControl class itself is `DataContext` and has `Label` & `TxtInput` properties (`DependencyProperty`)
 
 `FieldUserControl.xaml`
 ```
