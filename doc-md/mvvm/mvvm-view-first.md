@@ -23,7 +23,7 @@ public MainWindow()
 }
 ```
 
-#### n XAML
+#### In XAML
 
 `MainWindow.xaml`
 ```
@@ -42,7 +42,7 @@ public MainWindow()
 	
 </Window>
 ```
-##### Static Resource
+##### In XAML - Static Resource
 ```
 <Window x:Class="SampleApplication.MainWindow"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
@@ -64,6 +64,24 @@ public MainWindow()
 </Window>
 ```
 
-##### Element Tag
+##### In XAML - Element Tag
 ```
+<Window x:Class="SampleApplication.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:SampleApplication"
+    Title="MainWindow" Height="350" Width="525">
+	
+    <Window.DataContext>
+        <local:EmployeeViewModel />
+    </Window.DataContext>
+	
+    <Grid>
+
+        <TextBox Grid.Column="1" Text="{Binding Id}" />
+        <TextBox Grid.Column="1" Text="{Binding Name}" />
+		
+    </Grid>
+	
+</Window>
 ```
