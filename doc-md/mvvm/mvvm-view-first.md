@@ -19,7 +19,7 @@ public class EmployeeViewModel
 public MainWindow()
 {
     InitializeComponent();
-    this.DataContext = new TaskViewModel();
+    this.DataContext = new EmployeeViewModel();
 }
 ```
 
