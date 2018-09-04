@@ -8,11 +8,11 @@ When to use `UserControl`:
 
 ## Creating UserControl
 
-`FieldUserControl.xaml`
+`FieldUserControl.xaml` (`ElementName=MyControl` => UserControl class itself is `DataContext` and has `Label` & `TxtInput` properties)
 ```
-<UserControl x:Class="Demo.FieldUserControl" Name="ThisControl">
+<UserControl x:Class="Demo.FieldUserControl" Name="MyControl">
 
-  <StackPanel DataContext={Binding ElementName=ThisControl} Orientation="Horizontal">
+  <StackPanel DataContext={Binding ElementName=MyControl} Orientation="Horizontal">
   
     <TextBlock Text="{Binding Label}" Width="100"/>
 	
