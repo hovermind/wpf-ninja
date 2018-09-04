@@ -24,7 +24,7 @@
 
 ## Data Binding
 * [Data Binding Basic](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/data-binding.md)
-* [Ways to Set DataCOntext](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/data-binding-ways.md)
+* [Ways to Set DataContext](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/data-binding-ways.md)
 
 ## MVVM
 * [What is MVVM](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/mvvm/mvvm.md)
