@@ -1,6 +1,5 @@
 ## View First Approach
-
-#### In Code Behind Class Constructor
+The ViewModel should know nothing about the View, but that View should be aware of the ViewModel. The obvious way to attach a View and ViewModel, then, is have the View construct its ViewModel in its codebehind - something like this:
 ```
 public MainWindow()
 {
@@ -8,6 +7,7 @@ public MainWindow()
     this.DataContext = new EmployeeViewModel();
 }
 ```
+**Note:** `DataContext` in `xaml` uses default constructor only, if you need to pass params in ViewModel constructor then use code-behind class to set `DataContext`
 
 #### In XAML
 `MainWindow.xaml`
