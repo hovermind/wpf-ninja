@@ -62,3 +62,7 @@
 </Window>
 ```
 **Note:** Use Object Element Syntax when Markup Extension is not possible
+
+**See:**
+* [How to: Specify the Binding Source](https://docs.microsoft.com/en-us/dotnet/framework/wpf/data/how-to-specify-the-binding-source)
+* [Binding Declarations Overview](https://docs.microsoft.com/en-us/dotnet/framework/wpf/data/binding-declarations-overview)
