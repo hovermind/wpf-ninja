@@ -1,18 +1,4 @@
 ## View First Approach
-Model: `Employee.cs`
-```
-public class EmployeeViewModel
-{
-    public int Id {get; set;}
-    public string Name {get; set;}
-    
-    public EmployeeViewModel()
-    {
-        Id = 123;
-        Name = "ABC";
-    }
-}
-```
 
 #### In Code Behind Class Constructor
 ```
@@ -24,7 +10,6 @@ public MainWindow()
 ```
 
 #### In XAML
-
 `MainWindow.xaml`
 ```
 <Window x:Class="SampleApplication.MainWindow"
