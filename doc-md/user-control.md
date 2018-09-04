@@ -69,21 +69,21 @@ public partial class FieldUserControl : UserControl
     xmlns:local="clr-namespace:Demo"
     Width="200" Height="200">
 	
-	<Window.DataContext>
-	    <local:Person/>
-	</Window.DataContext>
+    <Window.DataContext>
+        <local:Person/>
+    </Window.DataContext>
 	
-<Grid>
+    <Grid>
 
-  <StackPanel Orientation="Vertical" HorizontalAlignment="Left" Margin="10">
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Left" Margin="10">
 
-    <local:FieldUserControl Label="Name:" TxtInput="{Binding Name}"/>
+                <local:FieldUserControl Label="Name:" TxtInput="{Binding Name}"/>
 
-    <local:FieldUserControl Label="Id:" TxtInput="{Binding Id}"/>
+                <local:FieldUserControl Label="Id:" TxtInput="{Binding Id}"/>
 
-  </StackPanel>
+        </StackPanel>
 
-</Grid>
+    </Grid>
   
 </Window>
 ```
