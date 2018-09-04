@@ -54,6 +54,7 @@ public MainWindow()
 ```
 
 ## In XAML - Static Resource & Element Tag
+[Source property instead of the DataContext property](https://docs.microsoft.com/en-us/dotnet/api/system.windows.data.binding.source?view=netframework-4.7.2#remarks)
 ```
 <Window x:Class="SampleApplication.MainWindow"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
