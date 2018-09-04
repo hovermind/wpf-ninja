@@ -5,8 +5,6 @@ if an outer representation of the data in an element changes, then the underlyin
 the value in a TextBox element, the underlying data value is automatically updated to reflect that change.
 
 
-**See:**
-* [Data Binding Details](https://docs.microsoft.com/en-us/dotnet/framework/wpf/data/data-binding-overview)
-* [Binding Declarations Overview](https://docs.microsoft.com/en-us/dotnet/framework/wpf/data/binding-declarations-overview)
-* [Binding Sources Overview](https://docs.microsoft.com/en-us/dotnet/framework/wpf/data/binding-sources-overview)
-* [How to: Specify the Binding Source](https://docs.microsoft.com/en-us/dotnet/framework/wpf/data/how-to-specify-the-binding-source)
+**See:** [Data Binding Details](https://docs.microsoft.com/en-us/dotnet/framework/wpf/data/data-binding-overview)
+
+
