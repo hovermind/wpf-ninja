@@ -15,7 +15,7 @@
 * Controls
   * [ContentControl](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/content-control.md)
   * [UserControl](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/user-control.md)
-  * [ItemsControl](#)
+  * [ItemsControl](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/items-control.md)
 * Template
   * [Data Template](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/data-template.md)
   * [Trigger](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/trigger.md)
