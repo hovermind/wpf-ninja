@@ -19,6 +19,7 @@
 * Template
   * [Control Template](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/control-template.md)
   * [Data Template](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/data-template.md)
+  * [Difference between Control Template and DataTemplate](https://stackoverflow.com/questions/1340108/difference-between-control-template-and-datatemplate-in-wpf)
   * [Trigger](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/trigger.md)
 * [i18n](#)
 
