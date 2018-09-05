@@ -27,11 +27,3 @@
 * [Data Binding Basic](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/data-binding.md)
 * [Binding Syntax](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/binding-syntax.md)
 * [Ways to Set DataContext](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/data-binding-ways.md)
-
-## MVVM
-* [What is MVVM](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/mvvm/mvvm.md)
-* [ViewModel](https://github.com/hovermind/wpf-ninja/blob/mvvm/doc-md/mvvm/view-model.md)
-* Connecting ViewModel to View
-  * [View First Composition](https://github.com/hovermind/wpf-ninja/blob/mvvm/doc-md/mvvm/mvvm-view-first.md)
-  * [ViewModel First Composition](https://github.com/hovermind/wpf-ninja/blob/mvvm/doc-md/mvvm/mvvm-viewmodel-first.md)
-* [ViewModelLocator](https://github.com/hovermind/wpf-ninja/blob/mvvm/doc-md/mvvm/viewmodel-locator.md)
