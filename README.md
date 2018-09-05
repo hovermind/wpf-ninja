@@ -13,8 +13,8 @@
   * [Image, Video, Doc](#)
 * [Layouts](#)
 * Controls
+  * [ContentControl](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/content-control.md)
   * [UserControl](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/user-control.md)
-  * [ContentControl](#)
   * [ItemsControl](#)
 * Template
   * [Data Template](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/data-template.md)
