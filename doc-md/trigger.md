@@ -5,3 +5,7 @@ and red when they are selected. Your first instinct might be to create a class t
 the OnSelectionChanged method to change the appearance of the selected item, but a better approach is to add a trigger to a style of 
 a ListBoxItem that changes the appearance of the selected item. A trigger enables you to change property values or take actions based 
 on the value of a property. An EventTrigger enables you to take actions when an event occurs.
+
+See
+* [DataTrigger Class](https://docs.microsoft.com/en-us/dotnet/api/system.windows.datatrigger)
+* [Use DataTriggers to Apply Property Values](Use DataTriggers to Apply Property Values)
