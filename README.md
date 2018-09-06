@@ -10,7 +10,6 @@
   * [Style](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/style.md)
   * [Theme](#)
   * [Value Resource - String, Number, Bool](https://docs.microsoft.com/en-us/windows/uwp/xaml-platform/xaml-intrinsic-data-types)
-  * [Image, Video, Doc](#)
 * [Layouts](#)
 * Controls
   * [ContentControl](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/content-control.md)
