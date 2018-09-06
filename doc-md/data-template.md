@@ -28,3 +28,5 @@ See: [Data Template Details](http://www.wpftutorial.net/datatemplates.html)
 ```
 <ContentControl ContentTemplate="{StaticResource myContentTemplate}" Content="..."/>
 ```
+
+## [The DataType Property](https://docs.microsoft.com/en-us/dotnet/framework/wpf/data/data-templating-overview#the-datatype-property)
