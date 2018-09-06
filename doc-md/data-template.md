@@ -30,3 +30,20 @@ See: [Data Template Details](http://www.wpftutorial.net/datatemplates.html)
 ```
 
 ## [The DataType Property](https://docs.microsoft.com/en-us/dotnet/framework/wpf/data/data-templating-overview#the-datatype-property)
+The `DataTemplate` class has a DataType property that is very similar to the `TargetType` property of the `Style` class. You can use `DataType` instead of `x:Key`:
+```
+<DataTemplate DataType="{x:Type local:Task}">
+  <StackPanel>
+    <TextBlock Text="{Binding Path=TaskName}" />
+    <TextBlock Text="{Binding Path=Description}"/>
+    <TextBlock Text="{Binding Path=Priority}"/>
+  </StackPanel>
+</DataTemplate>
+```
+
+**When `DataType` is used**
+* `DataTemplate` gets applied automatically to all Task objects used in `ItemsControl`(`ContentControl` does not use the above `DataTemplate` automatically) 
+* `x:Key` is set implicitly
+* both `DataType` & `x:Key` are used => you are overriding the implicit x:Key and the `DataTemplate` would not be applied automatically
+
+
