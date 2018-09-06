@@ -46,4 +46,7 @@ The `DataTemplate` class has a DataType property that is very similar to the `Ta
 * `x:Key` is set implicitly
 * both `DataType` & `x:Key` are used => you are overriding the implicit x:Key and the `DataTemplate` would not be applied automatically
 
-
+See
+* [Choosing a DataTemplate Based on Properties of the Data Object](https://docs.microsoft.com/en-us/dotnet/framework/wpf/data/data-templating-overview#choosing-a-datatemplate-based-on-properties-of-the-data-object)
+* [Styling and Templating an ItemsControl](https://docs.microsoft.com/en-us/dotnet/framework/wpf/data/data-templating-overview#styling-and-templating-an-itemscontrol)
+* [Support for Hierarchical Data](https://docs.microsoft.com/en-us/dotnet/framework/wpf/data/data-templating-overview#support-for-hierarchical-data)
