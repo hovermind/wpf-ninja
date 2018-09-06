@@ -7,4 +7,6 @@ a RadioButton offers the functionality of only one being selected at a time, but
 nothing like the lights on a stoplight. Because the RadioButton uses a control template to define its appearance, 
 it is easy to redefine the ControlTemplate to fit the requirements of the control, and use radio buttons to make your stoplight.
 
-See: [Control Template Details](http://www.wpftutorial.net/templates.html)
+See: 
+* [ControlTemplate Class](https://docs.microsoft.com/en-us/dotnet/api/system.windows.controls.controltemplate)
+* [ControlTemplate Details](http://www.wpftutorial.net/templates.html)
