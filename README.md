@@ -8,7 +8,7 @@
   * [XAML Resource](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/xaml-resource.md)
   * [Pack URI Scheme](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/pack-uri.md)
   * [Style](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/style.md)
-  * [Theme](#)
+  * [Theme](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/theme.md)
   * [Value Resource - String, Number, Bool](https://docs.microsoft.com/en-us/windows/uwp/xaml-platform/xaml-intrinsic-data-types)
 * [Layouts](#)
 * Controls
