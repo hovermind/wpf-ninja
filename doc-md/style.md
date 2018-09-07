@@ -13,8 +13,8 @@ See: [Styling and Templating](https://docs.microsoft.com/en-us/dotnet/framework/
 <TextBlock Style="{StaticResource TitleText}" Name="title">Title</TextBlock>
 ```
 
-## Style with Implicit Key: `TargetType="{x:Type Control}"` or `TargetType="Control"`
-`TargetType="{x:Type Control}"`: affects all controls of that Type (i.e. `TextBlock`)
+## Style with Implicit Key: `TargetType="{x:Type Control}"`
+`TargetType="{x:Type Control}"` (=> `TargetType="Control"`): affects all controls of that Type (i.e. `TextBlock`)
 ```
 <Style TargetType="TextBlock">
   <Setter Property="FontSize" Value="14"/>
@@ -47,7 +47,7 @@ What `TargetType="{x:Type TextBlock}"` / `TargetType="TextBlock"` does:
 </Style>
 ```
 
-**If both base style and subStyle has `TargetType` property:
+**If both base style and subStyle has `TargetType` property:**
 * both `TargetType` must be same type
 * subStyle `TargetType` must be derived type of baseStyle `TargetType`
 ```
