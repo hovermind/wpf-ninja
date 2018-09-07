@@ -1,7 +1,11 @@
 ## WPF Style
 A Style is a collection of values that represent properties for a control. By using styles, you can create a reusable representation of a desired control appearance and behavior without writing a new control.
+* the most common way to declare a style is as a resource in the Resources section in a XAML file
+* styles are resources, they obey the same scoping rules that apply to all resources; where you declare a style affects where the style can be applied
 
-See: [Styling and Templating](https://docs.microsoft.com/en-us/dotnet/framework/wpf/controls/styling-and-templating)
+See: 
+* [Styling and Templating](https://docs.microsoft.com/en-us/dotnet/framework/wpf/controls/styling-and-templating)
+* [Style Class](https://docs.microsoft.com/en-us/dotnet/api/system.windows.style)
 
 ## Style with Explicit Key: `x:Key="xxxx"`
 `x:Key="MyStyleName"` : only affects the controls to which style is appied
