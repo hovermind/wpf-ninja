@@ -11,7 +11,7 @@ See
 * [DataTrigger Class](https://docs.microsoft.com/en-us/dotnet/api/system.windows.datatrigger)
 * [Use DataTriggers to Apply Property Values](https://docs.microsoft.com/en-us/dotnet/framework/wpf/data/data-templating-overview#use-datatriggers-to-apply-property-values)
 
-## `Style`, `ControlTemplate`, and `DataTemplate` all have a `Triggers` property 
+### `Style`, `ControlTemplate`, and `DataTemplate` all have a `Triggers` property 
 #### Trigger in DataTemplate
 ```
 <DataTemplate.Triggers>
