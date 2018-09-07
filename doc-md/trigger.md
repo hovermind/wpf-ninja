@@ -8,6 +8,7 @@ on the value of a property. An EventTrigger enables you to take actions when an 
 * `Style`, `ControlTemplate`, and `DataTemplate` all have a Triggers property 
 
 See
+* [Triggers](https://docs.microsoft.com/en-us/dotnet/framework/wpf/controls/styling-and-templating#triggers)
 * [DataTrigger Class](https://docs.microsoft.com/en-us/dotnet/api/system.windows.datatrigger)
 * [Use DataTriggers to Apply Property Values](https://docs.microsoft.com/en-us/dotnet/framework/wpf/data/data-templating-overview#use-datatriggers-to-apply-property-values)
 
