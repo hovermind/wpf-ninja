@@ -22,6 +22,14 @@ var viewModel = new CalculatorViewModel();
 var view = new CalculatorView(viewModel);
 ```
 
+## External Creation and Assignment
+In this approach, the View doesn't even know how its DataContext will be set - our navigation code "peers in" to the view:
+```
+var view = new CalculatorView();
+var viewModel = new CalculatorViewModel();
+view.DataContext = viewModel;
+```
+
 ## In XAML - Static Resource
 ```
 <Window x:Class="SampleApplication.MainWindow"
@@ -43,6 +51,27 @@ var view = new CalculatorView(viewModel);
 	
 </Window>
 ```
+If you want to change data context at runtime:
+```
+<UserControl ...>
+
+    <UserControl.Resources>
+        <local:CalculatorViewModel x:Key="Model" />
+    </UserControl.Resources>
+    
+    <TextBox Text="{Binding Source={DynamicResource Model}, Path=""}" />
+    
+</UserControl>
+```
+Then in `ViewModel` constructor:
+```
+public CalculatorView(CalculatorViewModel viewModel)
+{
+    InitializeComponent();
+    Resources["Model"] = viewModel;
+}
+```
+
 
 ## In XAML - Element Tag
 ```
@@ -66,7 +95,7 @@ var view = new CalculatorView(viewModel);
 </Window>
 ```
 
-## In XAML - Element Tag & Source Property of Binding
+## In XAML - 'Element Tag' & 'Source Property' of Binding
 ```
 <Window x:Class="SampleApplication.MainWindow"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
