@@ -1,6 +1,7 @@
 Details:
 * [WPF Layout](https://docs.microsoft.com/en-us/dotnet/framework/wpf/advanced/layout)
 * [Introduction to WPF Layout](https://www.wpftutorial.net/LayoutProperties.html)
+* [Introduction to WPF panels](https://www.wpf-tutorial.com/panels/introduction-to-wpf-panels/)
 
 ## Comparison to Android Layout
 | Android | WPF | Purpose |
