@@ -8,6 +8,19 @@ public MainWindow()
     this.DataContext = new EmployeeViewModel();
 }
 ```
+Using DI
+```
+public CalculatorView(CalculatorViewModel viewModel)
+{
+    InitializeComponent();
+    this.DataContext = viewModel;
+}
+```
+**You'd probably want to use an IOC container to instantiate `ViewModel` instead of**:
+```
+var viewModel = new CalculatorViewModel();
+var view = new CalculatorView(viewModel);
+```
 
 ## In XAML - Static Resource
 ```
