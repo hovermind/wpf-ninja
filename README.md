@@ -31,4 +31,5 @@
 * [DependencyProperty for Property Change Notification](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/data-binding/change-notification-by-dp.md)
 * [Commands](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/data-binding/command.md)
 * [RelayCommand](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/data-binding/relay-command.md)
+* [RelayCommand Using Commander.Fody](https://github.com/DamianReeves/Commander.Fody)
 * [Interaction Triggers](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/data-binding/interaction-triggers.md)
