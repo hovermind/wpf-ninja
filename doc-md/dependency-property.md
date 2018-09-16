@@ -10,7 +10,31 @@ Dependency properties are properties of classes that derive from DependencyObjec
 
 The purpose of dependency properties is to provide a way to compute the value of a property based on the value of other inputs. These other inputs might include system properties such as themes and user preference, just-in-time property determination mechanisms such as data binding and animations/storyboards, multiple-use templates such as resources and styles, or values known through parent-child relationships with other elements in the element tree.
 
-**See:** [Property functionality provided by a dependency property](https://docs.microsoft.com/en-us/dotnet/framework/wpf/advanced/dependency-properties-overview#property-functionality-provided-by-a-dependency-property)
+Example:
+```
+public partial class FieldUserControl : UserControl
+{
+
+  public String Label
+  {
+    get { return (String)GetValue(LabelProperty); }
+    set { SetValue(LabelProperty, value); }
+  }
+  
+  public static readonly DependencyProperty LabelProperty = DependencyProperty.Register("Label", typeof(string), typeof(FieldUserControl), new PropertyMetadata(""));
+
+  public FieldUserControl()
+  {
+    InitializeComponent();
+	
+	  Label = "default label";
+  }
+}
+```
+
+**See:** 
+* [Property functionality provided by a dependency property](https://docs.microsoft.com/en-us/dotnet/framework/wpf/advanced/dependency-properties-overview#property-functionality-provided-by-a-dependency-property)
+* [Custom Dependency Properties](https://docs.microsoft.com/en-us/dotnet/framework/wpf/advanced/custom-dependency-properties)
 
 **Notes:**
 * **WPF Property System (`DependencyObject` class + `DependencyProperty` class)**: primary function is to compute the values of properties and to provide system notification about values that have changed
