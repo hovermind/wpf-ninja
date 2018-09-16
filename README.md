@@ -27,5 +27,5 @@
 * [Data Binding Basic](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/data-binding/data-binding-basic.md)
 * [Binding Syntax](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/data-binding/binding-syntax.md)
 * [Ways to Set DataContext](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/data-binding/data-binding-ways.md)
-* [INotifyPropertyChanged](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/data-binding/INotifyPropertyChanged.md)
-* [DependencyProperty for Property Change Notification](#)
+* [INotifyPropertyChanged for Property Change Notification](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/data-binding/INotifyPropertyChanged.md)
+* [DependencyProperty for Property Change Notification](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/data-binding/change-notification-by-dp.md)
