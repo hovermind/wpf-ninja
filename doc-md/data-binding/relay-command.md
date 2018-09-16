@@ -107,13 +107,13 @@ public class MyViewModel
     </Window.Resources>
 
 	
-	<StackPanel DataContext="{StaticResource MyViewModel}">
+    <StackPanel DataContext="{StaticResource MyViewModel}">
 
-		<TextBox Text="{Binding Input, UpdateSourceTrigger=PropertyChanged}" />
-		
-		<Button Content="Click here!" Command="{Binding ButtonClickCommand}" />
-		
-	</StackPanel>
+	<TextBox Text="{Binding Input, UpdateSourceTrigger=PropertyChanged}" />
+
+	<Button Content="Click here!" Command="{Binding ButtonClickCommand}" />
+
+    </StackPanel>
 	
 </Window>
 ```
