@@ -44,6 +44,10 @@ public partial class FieldUserControl : UserControl
 * **Data Binding**: the nicest thing about `DependencyProperty` is that it has all the plumbing for data binding built-in. If you bind something to it, it will notify when value changes (although the ViewModel must implement `INotifyPropertyChanged` interface to get notified)
 * **WPF Controls**: WPF controls inherit from `DependencyObject` and properties i.e. `Background`, `Width` etc. are of type `DependencyProperty` (therefore `Background`, `Width` etc. support data binding)
 
+**Causions:**
+* DependencyObjects are not marked as serializable: the `DependencyObject` class overrides and seals both the `Equals()` and `GetHashCode()` methods
+* a `DependencyObject` has thread affinity - it can only be accessed on the thread on which it was created
+
 ## DependencyProperty for Custom Controls
 To bind data to the property of a control (i.e. `Background` property of `Button` control), that property must be of type `DependencyProperty`.
 WPF controls inherit from `DependencyObject` and properties (i.e. `Background`, `Width` etc.) are of type `DependencyProperty` and therefore they support data binding.   
