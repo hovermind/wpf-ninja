@@ -3,6 +3,7 @@
 * [Markup Extension](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/markup-extension.md)
 * [Custom Mapping](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/custom-mapping.md)
 * [Dependency Property](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/dependency-property.md)
+* [Dependency Property for Custom Control](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/dependency-property-custom-control.md)
 * [Attached Property](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/attached-property.md)
 * [Resources](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/resource.md)
   * [XAML Resource](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/xaml-resource.md)
