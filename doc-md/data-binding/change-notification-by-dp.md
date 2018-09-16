@@ -22,8 +22,6 @@ public class MyViewModel : DependencyObject {
 
 **Step 1: Install Fody (Nuget Package)**    
 **Step 2: Install AutoDependencyProperty.Fody**   
-
-
 **Step 3: Buiuld & add `[AutoDependencyProperty]` annotation**
 ```
 public class MyViewModel
