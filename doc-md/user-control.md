@@ -7,9 +7,6 @@ When to use `UserControl`:
 * to build in some custom functionality (for example, a `CalendarControl`)
 
 ## Creating UserControl
-
-**Note:** `DataContext={Binding ElementName=MyControl}` means UserControl class itself is `DataContext` and has `Label` & `TxtInput` properties (`DependencyProperty`)
-
 `FieldUserControl.xaml`
 ```
 <UserControl x:Class="Demo.FieldUserControl" Name="MyControl">
@@ -25,6 +22,8 @@ When to use `UserControl`:
 </UserControl>
 ```
 
+**Notes:** 
+* `DataContext={Binding ElementName=MyControl}` means UserControl class itself is `DataContext` and has `Label` & `TxtInput` properties (`DependencyProperty`)
 * **a `UserControl` should never specify its own data context in its definition (Set `DataContext` in it's root layout)**
 * if `DataContext` is set in definition (hard-coded), then `DataContext` inheritance (from parent) would not work
 * in a page/window/other control i.e. `<local:FieldUserControl Label="Name:" TxtInput="{Binding Name}"/>` would expect `Name` property in `UserControl` class itself instaed of `DataContext` of page/window/other control (containing `UserControl`)
