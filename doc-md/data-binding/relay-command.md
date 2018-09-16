@@ -120,3 +120,10 @@ public class MyViewModel
 
 With this approach you have now moved the presentation logic from the view to the view model. Instead of hooking up the button's click handler, 
 its Command property is now bound to the command defined in the view model and when the user clicks on the button the command's Execute method will be invoked.
+
+## Command Parameters
+If you wish to pass a parameter to a command from the view you do so by using the `CommandParameter` property. The type argument of the generic `RelayCommand<T>` class specifies the type of the command parameter that gets passed to the `Execute` and `CanExecute` methods. The `CommandParameter` property exists in both the `ButtonBase` and `MenuItem` derived controls as well as in the `InvokeCommandAction` class:
+```
+<Button Content="Click here!" Command="{Binding ButtonClickCommand}"
+                CommandParameter="some string to be passed..." />
+```
