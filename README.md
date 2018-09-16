@@ -29,3 +29,6 @@
 * [Ways to Set DataContext](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/data-binding/data-binding-ways.md)
 * [INotifyPropertyChanged for Property Change Notification](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/data-binding/INotifyPropertyChanged.md)
 * [DependencyProperty for Property Change Notification](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/data-binding/change-notification-by-dp.md)
+* [Commands](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/data-binding/command.md)
+* [RelayCommand](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/data-binding/relay-command.md)
+* [Interaction Triggers](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/data-binding/interaction-triggers.md)
