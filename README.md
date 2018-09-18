@@ -28,7 +28,15 @@
 
 ## Data Binding
 * [Data Binding Basic](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/data-binding/data-binding-basic.md)
-* [Binding Syntax](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/data-binding/binding-syntax.md)
+* [Binding](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/data-binding/binding-syntax.md)
+  * [Binding Class](#)
+  * [Markup Extension Usage](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/data-binding/binding-markup-extension-usage.md)
+  * [Object Element Syntax](#)
+  * [Source Property of Binding Class](#)
+  * [Relative Source Property of Binding Class](#)
+  * [ElementName Property of Binding Class](#)
+  * [Path](#)
+  * [Mode Property of Binding Class](#)
 * [Ways to Set DataContext](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/data-binding/data-binding-ways.md)
 * [INotifyPropertyChanged for Property Change Notification](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/data-binding/INotifyPropertyChanged.md)
 * [DependencyProperty for Property Change Notification](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/data-binding/change-notification-by-dp.md)
