@@ -1,10 +1,14 @@
 ## Attached Behavior
-Attaching a behavior to an object simply means making the object do something that it would not do on its own.
-The idea is that you set an attached property on an element so that you can gain access to the element from the class that exposes the attached property. 
-Once that class has access to the element, it can hook events on it and, in response to those events firing, make the element do things that it normally would not do. 
-It is a very convenient alternative to creating and using subclasses, and is very XAML-friendly.
+**A behavior is a chunk of code you write that can be used in XAML by attaching it to some element through attached properties**. The behavior can use the exposed API of the element to which it is attached to add functionality to that element or other elements in the visual tree of the view. In this way, they are the XAML equivalent of C# extension methods. Extension methods allow you to define additional methods for some class in C# without modifying the class definition itself, and they work against the exposed API of the class. Behaviors allow you to add functionality to an element by writing that functionality in the behavior class and attaching it to the element as if it was part of the element itself.
 
-When an attached property has a change handler, it become attached behavior.
+Attached behaviors are defined as a static class with one or more Attached Properties defined within it. An Attached Property can define a change callback handler for when the property gets set on some target element, and the callback handler gets passed a reference to the element on which it is being attached (much like the “this” parameter reference in an extension method) and an argument that tells what the old and new values for the property are. The “behavior” comes in when you use that change callback handler to wire up new functionality to the element the property is attached to by manipulating the reference to it that gets passed in. The typical pattern is that the change callback handler will cast the element reference (which comes in as just a DependencyObject) to some known element type that the behavior is designed to enhance. Then it will hook up to events exposed by that element type, modify properties of the element, or call methods on the element to manifest the “behavior” desired.
+
+* attaching a behavior to an object simply means making the object do something that it would not do on its own
+* when an attached property has a change handler, it become attached behavior
+* all behaviors (attached behavior, blend behavior) are in some sense “attached behaviors” because they use Attached Properties in XAML to hook the behavior in to some element within the XAML
+* you can hook events and properties from a given control type and feed those down into a view model in a standardized fashion
+
+`DigitsOnlyBehavior.cs`
 ```
 public static class DigitsOnlyBehavior
 {
