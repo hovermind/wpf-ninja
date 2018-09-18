@@ -12,6 +12,7 @@ The purpose of dependency properties is to provide a way to compute the value of
 
 Example:
 ```
+// For Control
 public partial class FieldUserControl : UserControl
 {
 
@@ -29,6 +30,18 @@ public partial class FieldUserControl : UserControl
 	
 	  Label = "default label";
   }
+}
+
+// For ViewModel
+public class MyViewModel : DependencyObject {
+
+	public static readonly DependencyProperty NameProperty = DependencyProperty.Register("Name", typeof(string), typeof(MyViewModel), new PropertyMetadata(""));
+
+	public string Name
+	{
+		get { return (string) GetValue(HelloWorldProperty); }
+		set { SetValue(NameProperty, value); }
+	}
 }
 ```
 
