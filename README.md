@@ -2,9 +2,6 @@
 * [Introduction to WPF](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/intro.md)
 * [Markup Extension](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/markup-extension.md)
 * [Custom Mapping](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/custom-mapping.md)
-* [Dependency Property](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/dependency-property.md)
-* [Dependency Property for Custom Control](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/dependency-property-custom-control.md)
-* [Attached Property](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/attached-property.md)
 * [Resources](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/resource.md)
   * [XAML Resource](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/xaml-resource.md)
   * [Pack URI Scheme](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/pack-uri.md)
@@ -21,6 +18,13 @@
   * [ControlTemplate](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/control-template.md)
   * [Difference between ControlTemplate and DataTemplate](https://stackoverflow.com/questions/1340108/difference-between-control-template-and-datatemplate-in-wpf)
   * [Trigger](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/trigger.md)
+* [Dependency Property](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/dependency-property.md)
+* [Dependency Property for Custom Control](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/dependency-property-custom-control.md)
+* [Attached Property](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/attached-property.md)
+* [Attached Property](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/attached-property.md)
+* [Attached Behavior](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/attached-behavior.md)
+* [Blend Behavior](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/blend-behavior.md)
+* [Attached Pproperty vs Attached Behavior vs Blend Behavior](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/attached-property-behavior-vs-blend-behavior.md)
 * [i18n](#)
 
 ## Data Binding
