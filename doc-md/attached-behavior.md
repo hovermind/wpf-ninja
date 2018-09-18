@@ -11,6 +11,8 @@ See: [Attached Behavior vs Blend Behavior](http://briannoyesblog.azurewebsites.n
 **Note:** Attached Behavior does not show up in Blend under behaviors, and thus can not be attached if your are using Blend
 
 ## Creating Attached Behavior
+**Attached behaviors are defined as a static class with one or more Attached Properties defined within it**
+
 `DigitsOnlyBehavior.cs`
 ```
 public static class DigitsOnlyBehavior
