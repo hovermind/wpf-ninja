@@ -5,7 +5,7 @@ Attached property (a special kind of DependencyProperties) is the property of a 
 * attached properties are typically defined as a specialized form of dependency property that does not have the conventional property "wrapper"
 * attached properties are a XAML concept, whereas dependency properties are a WPF concept
 
-Syntax: `AttachedPropertyProvider.PropertyName` ( usage is somewhat similar to a static property)
+Syntax: `AttachedPropertyProvider.PropertyName` ( usage is somewhat similar to a static property)    
 Example: `DockPanel.Dock`
 ```
 <DockPanel>
