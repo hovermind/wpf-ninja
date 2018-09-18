@@ -38,6 +38,7 @@
   * [`Path` Property](#)
   * [`Mode` Property](#)
   * [Binding Source Types](https://docs.microsoft.com/en-us/dotnet/framework/wpf/data/binding-sources-overview#binding-source-types)
+  * [Binding CheatSheet](http://www.nbdtech.com/Free/WpfBinding.pdf)
 * [Ways to Set DataContext](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/data-binding/data-binding-ways.md)
 * [INotifyPropertyChanged for Property Change Notification](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/data-binding/INotifyPropertyChanged.md)
 * [DependencyProperty for Property Change Notification](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/data-binding/change-notification-by-dp.md)
