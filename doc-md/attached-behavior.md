@@ -8,6 +8,9 @@ See: [Attached Behavior vs Blend Behavior](http://briannoyesblog.azurewebsites.n
 * all behaviors (attached behavior, blend behavior) are in some sense “attached behaviors” because they use Attached Properties in XAML to hook the behavior in to some element within the XAML
 * you can hook events and properties from a given control type and feed those down into a view model in a standardized fashion
 
+**Note:** Attached Behavior does not show up in Blend under behaviors, and thus can not be attached if your are using Blend
+
+## Creating Attached Behavior
 `DigitsOnlyBehavior.cs`
 ```
 public static class DigitsOnlyBehavior
@@ -35,9 +38,6 @@ public static class DigitsOnlyBehavior
 ```
 <TextBox behaviors:DigitsOnlyBehavior.IsDigitOnly="True" />
 ```
-
-**Note:** Attached Behavior does not show up in Blend under behaviors, and thus can not be attached if your are using Blend
-
 
 ## Usage of Attached Behavior
 `TreeViewItemBehavior.cs`
