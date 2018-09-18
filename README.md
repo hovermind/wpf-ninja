@@ -21,11 +21,10 @@
 * [Dependency Property](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/dependency-property.md)
 * [Dependency Property for Custom Control](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/dependency-property-custom-control.md)
 * [Attached Property](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/attached-property.md)
-* [Attached Property](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/attached-property.md)
 * [Attached Behavior](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/attached-behavior.md)
 * [Blend Behavior](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/blend-behavior.md)
 * [Attached Pproperty vs Attached Behavior vs Blend Behavior](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/attached-property-behavior-vs-blend-behavior.md)
-* [i18n](#)
+
 
 ## Data Binding
 * [Data Binding Basic](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/data-binding/data-binding-basic.md)
