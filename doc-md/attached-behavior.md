@@ -36,6 +36,7 @@ public static class DigitsOnlyBehavior
 
 
 ## Usage of Attached Behavior
+`TreeViewItemBehavior.cs`
 ```
 // Exposes attached behaviors that can be applied to TreeViewItem objects
 
@@ -82,7 +83,10 @@ public static class TreeViewItemBehavior
             item.BringIntoView();
     }
 }
+```
 
+TreeView style
+```
 <TreeView.ItemContainerStyle>
 
   <Style TargetType="{x:Type TreeViewItem}">
