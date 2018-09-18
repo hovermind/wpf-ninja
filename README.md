@@ -28,12 +28,12 @@
 
 ## Data Binding
 * [Data Binding Basic](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/data-binding/data-binding-basic.md)
-* [Binding](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/data-binding/binding-syntax.md)
+* Binding
   * [Binding Class](https://docs.microsoft.com/en-us/dotnet/api/system.windows.data.binding)
   * [Markup Extension Usage](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/data-binding/binding-markup-extension-usage.md)
   * [Object Element Syntax](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/data-binding/binding-object-element-syntax.md)
   * [`Source` Property](#)
-  * [`RelativeSource` Property](#)
+  * [`RelativeSource` Property](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/data-binding/binding-relative-source.md)
   * [`ElementName` Property](#)
   * [`Path` Property](#)
   * [`Mode` Property](#)
