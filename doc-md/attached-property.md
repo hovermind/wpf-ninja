@@ -15,4 +15,6 @@ Example: `DockPanel.Dock`
 ```
 `DockPanel.Dock` is attached property of `CheckBox`
 
-See: [Attached Properties Overview](https://docs.microsoft.com/en-us/dotnet/framework/wpf/advanced/attached-properties-overview)
+See: 
+* [Attached Properties Overview](https://docs.microsoft.com/en-us/dotnet/framework/wpf/advanced/attached-properties-overview)
+* [How to Create an Attached Property](https://docs.microsoft.com/en-us/dotnet/framework/wpf/advanced/attached-properties-overview#how-to-create-an-attached-property-a-namehowdoicreateattachedpropertiesa)
