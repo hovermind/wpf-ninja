@@ -1,5 +1,5 @@
 ## Blend Behavior
-The problem with [Attached Behaviors](#) is that they are defined entirely through a set of public static variables and methods within a static class. 
+The problem with [Attached Behaviors](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/attached-behavior.md) is that they are defined entirely through a set of public static variables and methods within a static class. 
 As a result, there is not good encapsulating, and you have to be very careful with unsubscribing from events that you subscribe to at the appropriate time so you do not cause memory leaks. Additionally, they are not easy to use in a visual designer. 
 
 As a result, the Microsoft Expression Blend team standardized a new coding structure for defining behaviors that is both design tool friendly, and is better encapsulated (can use non-static class)
