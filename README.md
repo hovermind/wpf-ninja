@@ -36,6 +36,7 @@
   * [`RelativeSource` Property](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/data-binding/binding-relative-source.md)
   * [`ElementName` Property](#)
   * [`Path` Property](#)
+  * [`Converter` Property](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/data-binding/binding-converter.md)
   * [`Mode` Property](#)
   * [Binding Source Types](https://docs.microsoft.com/en-us/dotnet/framework/wpf/data/binding-sources-overview#binding-source-types)
   * [Binding CheatSheet](http://www.nbdtech.com/Free/WpfBinding.pdf)
