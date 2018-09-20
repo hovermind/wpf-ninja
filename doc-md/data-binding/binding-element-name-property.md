@@ -6,6 +6,8 @@ Example:
 * to use a `Slider` to control the height of another control in your application
 * to bind the `Content` of your control to the `SelectedValue` property of your `ListBox` control
 
+**See:** [`x:Reference` vs `ElementName`](https://stackoverflow.com/questions/19244111/what-is-the-difference-between-xreference-and-elementname) 
+
 #### CheckBox to Enable Button
 ```
 <Window x:Class="MyApp.MainWindow"
