@@ -35,7 +35,7 @@
   * [`Source` Property](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/data-binding/binding-source-property.md)
   * [`RelativeSource` Property](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/data-binding/binding-relative-source.md)
   * [`ElementName` Property](#)
-  * [`Path` Property](#)
+  * [`Path` Property](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/data-binding/binding-path-property.md)
   * [`Converter` Property](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/data-binding/binding-converter.md)
   * [`Mode` Property](#)
   * [Binding Source Types](https://docs.microsoft.com/en-us/dotnet/framework/wpf/data/binding-sources-overview#binding-source-types)
