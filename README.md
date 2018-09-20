@@ -1,13 +1,13 @@
 ## WPF
 * [Introduction to WPF](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/intro.md)
 * [Markup Extension](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/markup-extension.md)
-* [Custom Mapping](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/custom-mapping.md)
 * [Resources](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/resource.md)
   * [XAML Resource](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/xaml-resource.md)
   * [Pack URI Scheme](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/pack-uri.md)
   * [Style](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/style.md)
   * [Theme](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/theme.md)
   * [Value Resource - String, Number, Bool](https://docs.microsoft.com/en-us/windows/uwp/xaml-platform/xaml-intrinsic-data-types)
+* [Object Instance as Static Resource](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/custom-mapping.md)
 * [Layouts](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/layout.md)
 * Controls
   * [ContentControl](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/content-control.md)
