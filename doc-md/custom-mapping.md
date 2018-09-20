@@ -1,7 +1,7 @@
 ## Referring CLR-Object
 You can create CLR-object instances as static resource and use in xaml.
 
-* **xml namespace :** `xmlns:local="clr-namespace:<name_space_name>;assembly=<assembly_name>" (`xmlns:local` => xml namspace name can be anything i.e. instead of local we can use custom or something else)
+* **xml namespace :** `xmlns:local="clr-namespace:<name_space_name>;assembly=<assembly_name>"` (`xmlns:local` => xml namspace name can be anything i.e. instead of "local" we can use "custom" or something else)
 * **`assembly=` can be omitted** if the `clr-namespace` referenced is being defined within the same assembly as the application code that is referencing the custom classes
 * **`<local:MyViewModel x:Key="MyViewModel">`** : `var MyViewModel = new MyViewModel()`
 * **`<local:MyViewModel>`** : `new MyViewModel()`
@@ -10,7 +10,7 @@ You can create CLR-object instances as static resource and use in xaml.
 namespace MyApp { 
     public class MyViewModel {  
          // Props ...
-         // ctor 
+         // Ctor 
     }  
 }  
 
