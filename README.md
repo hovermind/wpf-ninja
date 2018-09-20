@@ -7,7 +7,7 @@
   * [Style](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/style.md)
   * [Theme](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/theme.md)
   * [Value Resource - String, Number, Bool](https://docs.microsoft.com/en-us/windows/uwp/xaml-platform/xaml-intrinsic-data-types)
-* [Object Instance as Static Resource](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/custom-mapping.md)
+* [CLR Object Instance as Static Resource](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/custom-mapping-for-clr-object.md)
 * [Layouts](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/layout.md)
 * Controls
   * [ContentControl](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/content-control.md)
