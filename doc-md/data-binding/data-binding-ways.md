@@ -80,14 +80,18 @@ public CalculatorView(CalculatorViewModel viewModel)
     xmlns:local="clr-namespace:SampleApplication"
     Title="MainWindow" Height="350" Width="525">
 	
-    <Window.DataContext>
-        <local:EmployeeViewModel />
-    </Window.DataContext>
-	
-    <Grid>
+    <Window.Resources>
+        <local:EmployeeViewModel x:Key="EmployeeViewModel" />
+    </Window.Resources>
 
-        <TextBox Grid.Column="1" Text="{Binding Id}" />
-        <TextBox Grid.Column="1" Text="{Binding Name}" />
+    <Grid>
+	
+	<Grid.DataContext>
+		<Binding Source="{StaticResource EmployeeViewModel}"/>
+	</Grid.DataContext>
+
+	<TextBox Grid.Column="1" Text="{Binding Id}" />
+	<TextBox Grid.Column="1" Text="{Binding Name}" />
 		
     </Grid>
 	
