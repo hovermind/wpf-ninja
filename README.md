@@ -38,6 +38,7 @@
   * [`Path` Property](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/data-binding/binding-path-property.md)
   * [`Converter` Property](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/data-binding/binding-converter.md)
   * [`Mode` Property](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/data-binding/binding-mode-property.md)
+  * [UpdateSourceTrigger Property](https://docs.microsoft.com/en-us/dotnet/api/system.windows.data.binding.updatesourcetrigger)
   * [Binding Source Types](https://docs.microsoft.com/en-us/dotnet/framework/wpf/data/binding-sources-overview#binding-source-types)
   * [Binding CheatSheet](http://www.nbdtech.com/Free/WpfBinding.pdf)
 * [Ways to Set DataContext](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/data-binding/data-binding-ways.md)
