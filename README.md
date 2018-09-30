@@ -49,3 +49,7 @@
 * [RelayCommand Using Commander.Fody](https://github.com/DamianReeves/Commander.Fody)
 * [Interaction Triggers](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/data-binding/interaction-triggers.md)
 * [BindableBase](https://www.danrigby.com/2012/04/01/inotifypropertychanged-the-net-4-5-way-revisited/)
+## Input Validation
+* [Exception](#)
+* [IDataErrorInfo](#)
+* [INotifyDataErrorInfo](#)
