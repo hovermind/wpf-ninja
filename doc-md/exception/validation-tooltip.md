@@ -1,6 +1,6 @@
 ## `ToolTip` Property
 Tooltip property can be set in:
-* COntrol
+* Control
 * ErrorTemplate
 * Style Trigger
 
@@ -28,8 +28,7 @@ Implicit Style
 ```
 <ControlTemplate x:Key="errorTemplate">
 	<DockPanel>
-		<Ellipse 
-            ToolTip="{Binding Path="(Validation.Errors).CurrentItem.ErrorContent" RelativeSource="{x:Static RelativeSource.Self}"}">
+		<Ellipse ToolTip="{Binding Path="(Validation.Errors).CurrentItem.ErrorContent" RelativeSource="{x:Static RelativeSource.Self}"}">
 			<Ellipse.Fill>
 
 			</Ellipse.Fill>
@@ -37,10 +36,4 @@ Implicit Style
 		<AdornedElementPlaceholder />
 	</DockPanel>
 </ControlTemplate>
-
-
-<Style TargetType="TextBox">
-    //... ... ...
-    <Setter Property="Validation.ErrorTemplate" Value="{StaticResource errorTemplate}" />
-</Style>
 ```
