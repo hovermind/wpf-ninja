@@ -53,4 +53,6 @@
 * [Exception](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/exception/validation-exception.md)
 * [IDataErrorInfo](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/exception/validation-IDataErrorInfo.md)
 * [INotifyDataErrorInfo](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/exception/validation-INotifyDataErrorInfo.md)
+* [Validation by Annotation](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/exception/validation-annotation.md)
 * [Validation Error Template](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/exception/validation-error-template.md)
+* [Tooltip](#)
