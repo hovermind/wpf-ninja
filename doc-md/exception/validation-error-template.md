@@ -21,7 +21,7 @@
 </ControlTemplate>
 
 
-// Set `ErrorTemplate` property of `TextBox`
+// Set ErrorTemplate property of TextBox
 <TextBox Text="{Binding Username, ValidatesOnExceptions=True, UpdateSourceTrigger=PropertyChanged}" 
 	Validation.ErrorTemplate="{StaticResource errorTemplate}"/>
 ```
@@ -44,7 +44,7 @@ When hovering on dot (`ToolTip` property of `Ellipse`) => `ToolTip="Invalid Inpu
 </ControlTemplate>
 
 
-// Set `ErrorTemplate` property of `TextBox`
+// Set ErrorTemplate property of TextBox
 <TextBox Text="{Binding Username, ValidatesOnExceptions=True, UpdateSourceTrigger=PropertyChanged}" 
 	Validation.ErrorTemplate="{StaticResource errorTemplate}"/>
 ```
