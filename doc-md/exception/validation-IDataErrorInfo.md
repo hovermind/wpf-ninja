@@ -3,7 +3,7 @@
 * `IDataErrorlnfo` interface defines API for querying an object for errors 
   * `Error` property - allows the view model or model class to provide an error message for the entire object. However, this property is not currently called by the WPF data binding engine.
   * Indexer- allows the view model or model class to provide an error message specific to the named property
-* `Binding` checks bound object to see if it implements IDataErrorlnfo and queries it whenever binding calls get/set block (performance issue since error is checked for every get/set call)
+* `Binding` checks bound object to see if it implements IDataErrorlnfo and queries it at begining & get/set calls (performance issue since error is checked for every get/set call)
 * need to set `ValidatesOnDataErrors` to true on `Binding`
 * **property value `null` or `string.Empty` means no error** & only one string error per property
 
