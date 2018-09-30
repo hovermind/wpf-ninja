@@ -49,7 +49,8 @@ When hovering on dot (`ToolTip` property of `Ellipse`) => `ToolTip="Invalid Inpu
 	Validation.ErrorTemplate="{StaticResource errorTemplate}"/>
 ```
 
-#### Implicitly Setting ErrorTemplate in Style
+## Implicitly Setting ErrorTemplate in Style
+`<TextBox ... Validation.ErrorTemplate="{StaticResource errorTemplate}"/>` is explicit & **below is implicit** (both does the same)
 ```
 <ControlTemplate x:Key="errorTemplate">
     //... ... ...
