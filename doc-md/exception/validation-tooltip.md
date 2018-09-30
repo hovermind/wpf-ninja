@@ -28,7 +28,7 @@ Implicit Style
 ```
 <ControlTemplate x:Key="errorTemplate">
 	<DockPanel>
-		<Ellipse ToolTip="{Binding Path="(Validation.Errors).CurrentItem.ErrorContent" RelativeSource="{x:Static RelativeSource.Self}"}">
+		<Ellipse ToolTip="{Binding Path="(Validation.Errors)[0].ErrorContent" RelativeSource="{x:Static RelativeSource.Self}"}">
 			<Ellipse.Fill>
 
 			</Ellipse.Fill>
