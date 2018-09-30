@@ -50,6 +50,7 @@
 * [Interaction Triggers](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/data-binding/interaction-triggers.md)
 * [BindableBase](https://www.danrigby.com/2012/04/01/inotifypropertychanged-the-net-4-5-way-revisited/)
 ## Input Validation
-* [Exception](#)
-* [IDataErrorInfo](#)
-* [INotifyDataErrorInfo](#)
+* [Exception](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/exception/validation-exception.md)
+* [IDataErrorInfo](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/exception/validation-IDataErrorInfo.md)
+* [INotifyDataErrorInfo](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/exception/validation-INotifyDataErrorInfo.md)
+* [Validation Error Template](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/exception/validation-error-template.md)
