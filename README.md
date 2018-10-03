@@ -1,3 +1,5 @@
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](http://paypal.me/hovermind/10usd)
+
 ## WPF
 * [Introduction to WPF](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/intro.md)
 * [Markup Extension](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/markup-extension.md)
