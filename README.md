@@ -51,6 +51,8 @@
 * [RelayCommand Using Commander.Fody](https://github.com/DamianReeves/Commander.Fody)
 * [Interaction Triggers](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/data-binding/interaction-triggers.md)
 * [BindableBase](https://www.danrigby.com/2012/04/01/inotifypropertychanged-the-net-4-5-way-revisited/)
+
+
 ## Input Validation
 * [Exception](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/exception/validation-exception.md)
 * [IDataErrorInfo](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/exception/validation-IDataErrorInfo.md)
@@ -58,3 +60,6 @@
 * [Validation by Annotation](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/exception/validation-annotation.md)
 * [Validation Error Template](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/exception/validation-error-template.md)
 * [Tooltip](https://github.com/hovermind/wpf-ninja/blob/master/doc-md/exception/validation-tooltip.md)
+
+## Extra
+* [ICollectionView](https://www.wpftutorial.net/dataviews.html)
